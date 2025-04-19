@@ -15,11 +15,10 @@ h1, h2, h3{
     font-weight: 700;
 }
 
-footer a{
-    color: var(--cor-principal);
+footer a {
+    color: var(--cor-principal)
 }
 
-footer a :hover{
+footer a:hover {
     color: var(--cor-destaque);
 }
-
