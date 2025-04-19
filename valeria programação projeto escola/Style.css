@@ -3,11 +3,12 @@
 :root{
     --cor-principal: #808080;
     --cor-secundaria: 	#000000;
-    --cor-destaque: #FFFF00;
+    --cor-destaque: #a5a52c;
 }
 
 body{
     font-family: "Chakra Petch", sans-serif;
+    color: var(--cor-principal);
 }
 
 h1, h2, h3{
@@ -15,10 +16,15 @@ h1, h2, h3{
     font-weight: 700;
 }
 
-footer a {
-    color: var(--cor-principal)
+.lead{
+    color: var(--cor-destaque);
+    font-weight: 700;
 }
 
-footer a:hover {
+a, btn-link {
+    color: var(--cor-principal);
+}
+
+a, btn-link:hover {
     color: var(--cor-destaque);
 }
